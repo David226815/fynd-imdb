@@ -1,9 +1,9 @@
-import sys
+# import sys
 
 from django.db.models import Q
 
 from .models import Movies
-import logging
+# import logging
 from .abstraction import *
 
 
@@ -29,7 +29,7 @@ def get_movies_data():
 
         return q_models
     except Exception:
-        exc_type, exc_obj, tb = sys.exc_info()
+        # exc_type, exc_obj, tb = sys.exc_info()
         # logging.critical("EXCEPTION - " + str(e) + " in " + str(__name__) + " on line number: " + str(tb.tb_lineno))
         return None
 

@@ -27,8 +27,9 @@ DEBUG = False
 
 PRODUCTION = True
 
-ALLOWED_HOSTS = ['127.0.0.1', 'enigmatic-cliffs-33753', 'enigmatic-cliffs-33753.herokuapp.com',
-                 'http://enigmatic-cliffs-33753.herokuapp.com', 'localhost']
+ALLOWED_HOSTS = ['127.0.0.1', 'glacial-sea-44036', 'glacial-sea-44036.herokuapp.com',
+                 'http://glacial-sea-44036.herokuapp.com',
+                 'fynd-imdb-123', 'fynd-imdb-123.herokuapp.com','localhost']
 
 # Application definition
 INSTALLED_APPS = (

@@ -1,6 +1,6 @@
 import json
-import logging
-import sys
+# import logging
+# import sys
 from .models import *
 
 
@@ -37,7 +37,7 @@ def store_movie_in_db():
             m.save()
         return "DONE"
     except Exception:
-        exc_type, exc_obj, tb = sys.exc_info()
+        # exc_type, exc_obj, tb = sys.exc_info()
         # logging.critical("EXCEPTION - " + str(e) + " in " + str(__name__) + " on line number: " + str(tb.tb_lineno))
         return None
 

@@ -4,6 +4,7 @@ from django.contrib import admin
 # from django.contrib import admin
 
 from django.http import HttpResponse
+from django.views.generic import RedirectView
 from rest_framework.urlpatterns import format_suffix_patterns
 
 from movies import views
@@ -23,4 +24,5 @@ urlpatterns = [
     url(r'^$', views.home, name='home'),
     url(r'^all_movies', views.all_movies, name='all_movies'),
     url(r'^search_movie', views.search_movies, name='search_movies'),
+    url(r'^favicon\.ico$',RedirectView.as_view(url='/static/images/favicon.ico'))
 ]
