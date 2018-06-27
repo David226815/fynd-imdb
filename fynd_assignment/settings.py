@@ -25,7 +25,7 @@ SECRET_KEY = 'z2(7=&w3o8^y#3txni8-k8-^h+oasqw!l$rrk^mqpal9cugom8'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1', 'peaceful-island-88973.herokuapp']
+ALLOWED_HOSTS = ['127.0.0.1', 'fast-eyrie-94339.herokuapp', 'localhost']
 
 # Application definition
 INSTALLED_APPS = (
@@ -115,7 +115,9 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.9/howto/static-files/
 
-STATIC_ROOT = BASE_DIR
+# STATIC_ROOT = BASE_DIR, 'static_public', 'static'
+
+STATIC_ROOT = os.path.join(os.path.dirname(BASE_DIR), 'static_public', 'static')
 
 STATIC_URL = '/static/'
 
@@ -130,3 +132,5 @@ SESSION_EXPIRE_AT_BROWSER_CLOSE = False
 SESSION_COOKIE_HTTPONLY = True
 
 CSRF_FAILURE_VIEW = True
+
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
