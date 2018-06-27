@@ -25,7 +25,7 @@ SECRET_KEY = 'z2(7=&w3o8^y#3txni8-k8-^h+oasqw!l$rrk^mqpal9cugom8'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1', 'fast-eyrie-94339.herokuapp', 'localhost']
+ALLOWED_HOSTS = ['127.0.0.1', 'salty-forest-69720.herokuapp.com', 'localhost']
 
 # Application definition
 INSTALLED_APPS = (
