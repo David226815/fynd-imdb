@@ -23,12 +23,12 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'z2(7=&w3o8^y#3txni8-k8-^h+oasqw!l$rrk^mqpal9cugom8'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 PRODUCTION = True
 
-ALLOWED_HOSTS = ['127.0.0.1', 'secret-hamlet-41291', 'secret-hamlet-41291.herokuapp.com',
-                 'http://secret-hamlet-41291.herokuapp.com', 'localhost']
+ALLOWED_HOSTS = ['127.0.0.1', 'enigmatic-cliffs-33753', 'enigmatic-cliffs-33753.herokuapp.com',
+                 'http://enigmatic-cliffs-33753.herokuapp.com', 'localhost']
 
 # Application definition
 INSTALLED_APPS = (
