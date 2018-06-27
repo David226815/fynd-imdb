@@ -350,7 +350,7 @@ input{
 .banner_test_advertise_stats,
 .banner_test_advertise{
     height:150px;
-    background-image:url('../images/banner_advertise_test.png');
+    /*background-image:url('../images/banner_advertise_test.png');*/
 }
 
 .banner_test_advertise_stats{
