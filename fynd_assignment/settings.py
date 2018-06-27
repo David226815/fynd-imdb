@@ -25,7 +25,7 @@ SECRET_KEY = 'z2(7=&w3o8^y#3txni8-k8-^h+oasqw!l$rrk^mqpal9cugom8'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1', 'afternoon-reaches-84280.herokuapp.com', 'localhost']
+ALLOWED_HOSTS = ['127.0.0.1', 'rocky-island-67240.herokuapp.com', 'localhost']
 
 # Application definition
 INSTALLED_APPS = (
